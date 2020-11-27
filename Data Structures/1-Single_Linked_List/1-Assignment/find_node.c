@@ -24,4 +24,6 @@ int find_node(slist **head, data_t n_data)
 		}
 		temp = temp->link;
 	}
+      // Returns failure if the data not found in the list
+	return FAILURE
 }
